@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NaturplayMath.Algebra;
 using NaturplayMath.Algebra.Scalar.NumberString;
 
-namespace NaturplayMathTest.Algebra
+namespace DigitSymbol.Algebra
 {
     [TestClass]
     public class NaturalNumStrTest

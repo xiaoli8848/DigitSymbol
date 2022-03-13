@@ -4,7 +4,7 @@ using NaturplayMath.Algebra;
 using NaturplayMath.Algebra.Scalar;
 using NaturplayMath.Algebra.Scalar.NumberString;
 
-namespace NaturplayMathTest.Algebra
+namespace DigitSymbol.Algebra
 {
     [TestClass]
     public class NumStrUnitTest
