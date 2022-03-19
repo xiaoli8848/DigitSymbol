@@ -1,12 +1,12 @@
-﻿using NaturplayMath.Algebra.Exception;
-using NaturplayMath.Algebra.Scalar;
+﻿using DigitSymbol.Scalar.Exception;
+using DigitSymbol.Scalar;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NaturplayMath.Algebra
+namespace DigitSymbol.Scalar
 {
     /// <summary>
     /// 计算空间类，包含适用于一系列运算的基本的、统一的设置。一般而言不支持跨空间的运算

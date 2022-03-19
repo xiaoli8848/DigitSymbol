@@ -1,9 +1,9 @@
-﻿using NaturplayMath.Algebra.Scalar.NumberString;
+﻿using DigitSymbol.Scalar.NumberString;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NaturplayMath.Algebra.Scalar
+namespace DigitSymbol.Scalar
 {
     /// <summary>
     /// 常量生成器

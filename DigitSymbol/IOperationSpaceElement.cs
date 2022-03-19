@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NaturplayMath.Algebra
+namespace DigitSymbol.Scalar
 {
     /// <summary>
     /// 计算空间内的元素接口
@@ -25,9 +25,9 @@ namespace NaturplayMath.Algebra
         /// <returns></returns>
         string GetTeXCode();
         /// <summary>
-        /// 生成NaturplayMath表达式
+        /// 生成DigitSymbol表达式
         /// </summary>
         /// <returns></returns>
-        string GetNaturplayMathExp();
+        string GetDigitSymbolExp();
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NaturplayMath.Algebra.Scalar
+namespace DigitSymbol.Scalar
 {
     /// <summary>
     /// 复数类

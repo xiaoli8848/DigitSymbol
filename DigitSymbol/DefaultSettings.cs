@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NaturplayMath.Algebra
+namespace DigitSymbol.Scalar
 {
     /// <summary>
     /// 默认设置静态类

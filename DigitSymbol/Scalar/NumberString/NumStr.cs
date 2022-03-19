@@ -2,9 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
-using NaturplayMath.Algebra.Exception;
+using DigitSymbol.Scalar.Exception;
 
-namespace NaturplayMath.Algebra.Scalar.NumberString
+namespace DigitSymbol.Scalar.NumberString
 {
     /// <summary>
     /// 数字串类，表示一个数字
@@ -319,7 +319,7 @@ namespace NaturplayMath.Algebra.Scalar.NumberString
             return this;
         }
 
-        public override string GetNaturplayMathExp()
+        public override string GetDigitSymbolExp()
         {
             return ToString();
         }

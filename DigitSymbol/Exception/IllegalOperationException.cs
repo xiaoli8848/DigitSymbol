@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NaturplayMath.Algebra.Exception
+namespace DigitSymbol.Scalar.Exception
 {
     /// <summary>
     /// 非法运算错误类型枚举
@@ -30,7 +30,7 @@ namespace NaturplayMath.Algebra.Exception
     /// <summary>
     /// 非法运算异常类
     /// </summary>
-    public class IllegalOperationException : AlgebraException
+    public class IllegalOperationException : ScalarException
     {
         /// <summary>
         /// 非法运算详细类型
@@ -39,7 +39,7 @@ namespace NaturplayMath.Algebra.Exception
 
         public IllegalOperationException()
         {
-            Type = AlgebraExceptionType.IllegalOperation;
+            Type = ScalarExceptionType.IllegalOperation;
         }
         public IllegalOperationException(IllegalOperationExceptionType stype)
             :this()

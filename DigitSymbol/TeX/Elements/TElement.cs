@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NaturplayMath.Algebra.TeX.Elements
+namespace DigitSymbol.Algebra.TeX.Elements
 {
     /// <summary>
     /// TeX公式元素基类

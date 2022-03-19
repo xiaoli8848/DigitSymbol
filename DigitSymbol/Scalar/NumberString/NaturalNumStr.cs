@@ -1,9 +1,9 @@
-﻿using NaturplayMath.Algebra.Exception;
+﻿using DigitSymbol.Scalar.Exception;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NaturplayMath.Algebra.Scalar.NumberString
+namespace DigitSymbol.Scalar.NumberString
 {
     /// <summary>
     /// 自然数串类，按位保存自然数

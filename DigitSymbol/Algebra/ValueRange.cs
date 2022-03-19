@@ -1,5 +1,5 @@
-﻿using NaturplayMath.Algebra.Scalar;
-using NaturplayMath.Algebra.Scalar.NumberString;
+﻿using DigitSymbol.Scalar;
+using DigitSymbol.Scalar.NumberString;
 using System;
 using System.Collections.Generic;
 using System.Linq;

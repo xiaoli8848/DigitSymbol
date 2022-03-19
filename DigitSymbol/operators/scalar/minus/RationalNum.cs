@@ -1,10 +1,10 @@
-﻿using NaturplayMath.Algebra.Exception;
-using NaturplayMath.Algebra.Scalar.NumberString;
+﻿using DigitSymbol.Scalar.Exception;
+using DigitSymbol.Scalar.NumberString;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NaturplayMath.Algebra.Scalar
+namespace DigitSymbol.Scalar
 {
     /// <summary>
     /// 有理数类

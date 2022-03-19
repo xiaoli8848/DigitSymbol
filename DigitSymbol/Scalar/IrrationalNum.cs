@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NaturplayMath.Algebra.Scalar
+namespace DigitSymbol.Scalar
 {
     /// <summary>
     /// 无理数类
@@ -27,7 +27,7 @@ namespace NaturplayMath.Algebra.Scalar
             throw new NotImplementedException();
         }
 
-        public override string GetNaturplayMathExp()
+        public override string GetDigitSymbolExp()
         {
             throw new NotImplementedException();
         }

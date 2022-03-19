@@ -1,12 +1,12 @@
-﻿using NaturplayMath.Algebra.Exception;
-using NaturplayMath.Algebra.Scalar.NumberString;
+﻿using DigitSymbol.Scalar.Exception;
+using DigitSymbol.Scalar.NumberString;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NaturplayMath.Algebra.Scalar
+namespace DigitSymbol.Scalar
 {
     /// <summary>
     /// 整数类

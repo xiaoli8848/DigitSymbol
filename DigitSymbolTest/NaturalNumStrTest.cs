@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NaturplayMath.Algebra;
-using NaturplayMath.Algebra.Scalar.NumberString;
+using DigitSymbol.Scalar;
+using DigitSymbol.Scalar.NumberString;
 
-namespace DigitSymbol.Algebra
+namespace DigitSymbol.Scalar
 {
     [TestClass]
     public class NaturalNumStrTest

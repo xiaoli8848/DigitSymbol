@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NaturplayMath.Algebra.Exception
+namespace DigitSymbol.Scalar.Exception
 {
     /// <summary>
     /// 程序中断错误类型枚举
@@ -26,7 +26,7 @@ namespace NaturplayMath.Algebra.Exception
     /// <summary>
     /// 程序中断异常类
     /// </summary>
-    public class ProgramInterruptException : AlgebraException
+    public class ProgramInterruptException : ScalarException
     {
         /// <summary>
         /// 程序中断详细类型
@@ -35,7 +35,7 @@ namespace NaturplayMath.Algebra.Exception
 
         public ProgramInterruptException()
         {
-            Type = AlgebraExceptionType.ProgramInterrupt;
+            Type = ScalarExceptionType.ProgramInterrupt;
         }
         public ProgramInterruptException(ProgramInterruptExceptionType stype)
             : this()

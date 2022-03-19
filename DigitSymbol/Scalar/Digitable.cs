@@ -1,11 +1,11 @@
-﻿using NaturplayMath.Algebra.Scalar.NumberString;
+﻿using DigitSymbol.Scalar.NumberString;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NaturplayMath.Algebra.Scalar
+namespace DigitSymbol.Scalar
 {
     /// <summary>
     /// 可数位化的数字（抽象类）
@@ -102,7 +102,7 @@ namespace NaturplayMath.Algebra.Scalar
 
         public abstract string GetTeXCode();
 
-        public abstract string GetNaturplayMathExp();
+        public abstract string GetDigitSymbolExp();
 
         /// <summary>
         /// 用拷贝初始化复制一个新的实例
@@ -122,7 +122,7 @@ namespace NaturplayMath.Algebra.Scalar
 
         public override string ToString()
         {
-            return GetNaturplayMathExp();
+            return GetDigitSymbolExp();
         }
     }
 }

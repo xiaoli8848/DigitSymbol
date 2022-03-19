@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NaturplayMath.Algebra.Exception
+namespace DigitSymbol.Scalar.Exception
 {
     /// <summary>
     /// 数字超出范围异常类
     /// </summary>
-    public class NumberOutOfRangeException : AlgebraException
+    public class NumberOutOfRangeException : ScalarException
     {
         public NumberOutOfRangeException()
         {
-            Type = AlgebraExceptionType.NumberOutOfRange;
+            Type = ScalarExceptionType.NumberOutOfRange;
         }
     }
 }

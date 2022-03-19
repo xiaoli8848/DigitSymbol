@@ -1,11 +1,11 @@
-﻿using NaturplayMath.Algebra.Exception;
+﻿using DigitSymbol.Scalar.Exception;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NaturplayMath.Algebra.Scalar
+namespace DigitSymbol.Scalar
 {
     /// <summary>
     /// 可数位化的数字（抽象类）

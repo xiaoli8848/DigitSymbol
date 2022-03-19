@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NaturplayMath.Algebra.Scalar.NumberString
+namespace DigitSymbol.Scalar.NumberString
 {
     /// <summary>
     /// 自然数串类

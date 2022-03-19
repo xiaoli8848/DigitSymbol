@@ -1,4 +1,4 @@
-﻿using NaturplayMath.Algebra.Scalar;
+﻿using DigitSymbol.Scalar;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NaturplayMath.Algebra.Exception
+namespace DigitSymbol.Scalar.Exception
 {
     /// <summary>
     /// 格式错误异常类
     /// </summary>
-    public class FormatErrorException : AlgebraException
+    public class FormatErrorException : ScalarException
     {
         public FormatErrorException()
         {
-            Type = AlgebraExceptionType.FormatError;
+            Type = ScalarExceptionType.FormatError;
         }
     }
 }

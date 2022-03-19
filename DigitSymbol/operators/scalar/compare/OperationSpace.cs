@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NaturplayMath.Algebra.Scalar;
+using DigitSymbol.Scalar;
 
-namespace NaturplayMath
+namespace DigitSymbol
 {
     /// <summary>
     /// 计算空间类

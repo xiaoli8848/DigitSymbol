@@ -1,10 +1,10 @@
-﻿using NaturplayMath.Algebra.Exception;
-using NaturplayMath.Algebra.Scalar.NumberString;
+﻿using DigitSymbol.Scalar.Exception;
+using DigitSymbol.Scalar.NumberString;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NaturplayMath.Algebra.Scalar
+namespace DigitSymbol.Scalar
 {
     /// <summary>
     /// 有理数类
@@ -275,16 +275,16 @@ namespace NaturplayMath.Algebra.Scalar
             return value;
         }
 
-        public override string GetNaturplayMathExp()
+        public override string GetDigitSymbolExp()
         {
             var sb = new StringBuilder();
             if (PositiveOrNegative < 0)
                 sb.Append('-');
-            sb.Append(numerator.GetNaturplayMathExp());
+            sb.Append(numerator.GetDigitSymbolExp());
             if (!denominator.IsOne)
             {
                 sb.Append(" / ");
-                sb.Append(denominator.GetNaturplayMathExp());
+                sb.Append(denominator.GetDigitSymbolExp());
             }
             return sb.ToString();
         }

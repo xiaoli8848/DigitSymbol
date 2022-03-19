@@ -1,11 +1,11 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using DigitSymbol.Algebra;
+using DigitSymbol.Scalar;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NaturplayMath.Algebra.Scalar;
+using DigitSymbol.Scalar;
 
 namespace DigitSymbol.Algebra.Tests
 {

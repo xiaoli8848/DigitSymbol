@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NaturplayMath
+namespace DigitSymbol
 {
     /// <summary>
     /// 计算空间类
